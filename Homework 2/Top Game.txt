@@ -1,0 +1,53 @@
+"Top Game"
+
+ChatGPT - 
+
+The Legend of Zelda: Ocarina of Time (1998) – Nintendo 64
+
+Why it’s revered: Revolutionized 3D adventure games, deep storytelling, memorable music, and innovative gameplay mechanics.
+
+Metacritic score: 99/100 (still the highest of all time)
+
+
+Copilot - 
+
+The Legend of Zelda: Ocarina of Time – Often cited for its revolutionary design and emotional storytelling.
+
+Minecraft – A sandbox titan that redefined creativity and multiplayer gaming.
+
+The Witcher 3: Wild Hunt – A narrative-driven RPG with deep world-building and unforgettable characters.
+
+Dark Souls – Known for its punishing difficulty and atmospheric lore.
+
+Red Dead Redemption 2 – A cinematic Western epic with stunning realism and emotional depth.
+
+
+Gemini -
+
+The Legend of Zelda: Ocarina of Time (1998): This Nintendo 64 title is often cited as the single highest-rated game of all time on many aggregate sites like Metacritic. It is credited with defining the 3D action-adventure genre and creating a template that many games would follow for years to come.
+
+The Legend of Zelda: Breath of the Wild (2017): This game reinvented the Zelda franchise and the open-world genre. Critics praised its expansive world, freedom of exploration, and physics-based gameplay.
+
+Super Mario Galaxy (2007): A shining example of a creative and joyful platformer, it was lauded for its innovative use of gravity and level design.
+
+Grand Theft Auto IV (2008) & V (2013): Both games were critically acclaimed for their intricate open worlds, mature storytelling, and engaging gameplay.
+
+Claude - 
+
+The Legend of Zelda: Ocarina of Time - Revolutionary 3D adventure that many consider perfect
+Super Mario Bros. 3 - Platforming masterpiece that defined the genre
+Tetris - Simple, addictive, and endlessly replayable
+The Legend of Zelda: Breath of the Wild - Redefined open-world exploration
+Super Metroid - Atmospheric exploration at its finest
+
+The prompt I used to find the top game was "What is the best video game ever?". Surprisingly all of the platforms seem to agree that Ocarina of time is the best video game of all time. They all seem to be using multiple criteria to make this decision whether is meta critic score, graphics, or story telling. I actually agree with this and I feel like anyone who got to play it when it came out in 1998 would agree too. This is tough though at the end of the day because while I agree with it there are strong arguments for so many other games. Games like Super Mario 64 and Golden Eye 64 came out in the same time period and had arguably just a big of an impact. My criteria honestly is replay-ability and unique game play. So many games these days are copy pastes of other games that finding good unique game play is very difficult. While at the same time some games are fun and with a unique style but you only play it once. Ocarina of Time was ahead of its time when it was released and while I have not played it in a while I have gone from start to finish many times.
+
+
+Circular Storytelling
+
+AI Story - Prompt "Yesterday I went to the store and bought a yellow car with green tires."
+
+"Yesterday I went to the store and bought a yellow car with green tires. As I drove it home, people couldn't stop staring at the bizarre color combination. One kid even pointed at it and shouted, "Look, it's the banana-mobile!" before bursting into laughter. A small voice from the backseat asked, "Can we name it the Banana-mobile, too?" I glanced in the rearview mirror at my daughter's hopeful eyes and couldn't help but smile—the Banana-mobile it would be."
+
+I was pleasantly surprised with the outcome of this exercise and how the prompt actually made a decent little story. The story is coherent and actually funny in a cute way. I am not to surprised with its ability to stay in the proper writing perspective, but it is quite amazing as I would have never come up with that story given the same prompt. This is very interesting because as a writer you really can just jot out a general idea and a narrative can be just placed in your lap. 
+
