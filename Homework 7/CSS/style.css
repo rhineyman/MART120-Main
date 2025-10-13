@@ -1,3 +1,24 @@
 .blueColor { 
     color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 50px;
 }
+.redColor { 
+    color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 40px;} 
+
+#greenColor { 
+    color: green; font-family: 'Times New Roman', 'Arial Narrow', Arial, sans-serif; font-size: 40px;}
+
+    #greenColor:hover {
+        color: purple;
+        font-size: 45px;
+    }
+    #orangeColor {
+        color: orange; font-family: 'Times New Roman', 'Arial Narrow', Arial, sans-serif; font-size: 30px;
+    }
+
+    #imageBackground {
+        background-image: url('../Images/matrix.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+body {text-align: center;}
