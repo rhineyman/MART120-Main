@@ -3,8 +3,23 @@
         <title>Main</title>
         <link rel="stylesheet" href="CSS/style.css">
         <style>span{background-color: red; font-size: 40px;}</style>
-    </head>     
-    <body>
+    </head>    
+    
+    <script>
+        var favoriteNumber = 7;
+        var myName;
+        myName = "Mike";
+        var red, blue, green;
+        blue = "#0000FF";
+
+        function changeName(name, number) { 
+            myName = name;
+            favoriteNumber = number;
+            document.getElementById("myID").innerHTML = "Hello my name is " + myName + " and my favorite number is " + favoriteNumber;
+        }
+    </script> 
+    
+    <body onload="changeName('Victor', 13);">
         <h1 class="blueColor">My hobbies</h1>
         <ul>
             <li id="greenColor">Skiing</li>
@@ -25,9 +40,18 @@
             <li><a href="https://www.youtube.com/" style="font-size: 50px;" target="_blank">Youtube</a></li>
             <li><a href="https://www.newgrounds.com/" style="font-size: 50px;" target="_blank">Newgrounds</a></li>
         </ol>
+        
         <h4 class="redColor">Other Pages</h4>
         <a href="HW7Page2.html">Story Page</a>
         <br>
         <a href="HW7Page3.html">Contact Us</a>
+        
+        <!-- placeholder where the greeting will appear -->
+        <p id="myID"></p>
+        
+        <script>
+            
+        </script>
     </body>
+    
 </html>

@@ -6,8 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>    
+        function getInformation() {
+            
+            
+        }
+        function checkAnswer() {
+            var firstName = document.getElementById("Fname").value;
+            var lastName = document.getElementById("Lname").value;
+            var emailAddress = document.getElementById("Email").value;
+            var checkBox = document.getElementById("terms");
+            var text = document.getElementById("message");
+            var failureMessage = "You must fill out all fields and agree to the terms to sign up.";
+            // clear previous invalid styles
+            document.getElementById("Fname").classList.remove('invalid');
+            document.getElementById("Lname").classList.remove('invalid');
+            document.getElementById("Email").classList.remove('invalid');
+            document.getElementById("terms").classList.remove('invalid');
+            if (checkBox.checked && firstName != "" && lastName != "" && emailAddress != "") {
+                document.getElementById("message").innerHTML = "Thanks for signing up " + firstName + " " + lastName + ". Your email is " + emailAddress + ".";
+            } 
+            if (firstName == "") {
+                document.getElementById("message").innerHTML = failureMessage;
+                document.getElementById("Fname").classList.add('invalid');
+
+            }
+            if (lastName == "") {
+                document.getElementById("message").innerHTML = failureMessage;
+                document.getElementById("Lname").classList.add('invalid');
+                
+
+            }
+            if (emailAddress == "") {
+                document.getElementById("message").innerHTML = failureMessage;
+                document.getElementById("Email").classList.add('invalid');
+
+            }
+            if (!checkBox.checked) {
+                document.getElementById("message").innerHTML = failureMessage;
+                document.getElementById("terms").classList.add('invalid');
+
+            }
+        }
+
+    </script>
+    <style>
+        /* highlight invalid inputs */
+        .invalid {
+            outline: 3px solid rgba(255,0,0,0.7);
+            background-color: rgba(255,0,0,0.05);
+        }
+        /* make checkbox outline visible on most browsers */
+        input[type="checkbox"].invalid {
+            box-shadow: 0 0 0 3px rgba(255,0,0,0.4);
+        }
+    </style>
+
     </head>
-    <body>
+    <body onload="getInformation();">
         <h1>Sign Up Page</h1>
         <p>I dunno sign up or something</p>
          <br>
@@ -16,12 +73,15 @@
             Last Name: <input type="text"   id="Lname"><br>
             Email Address: <input type="text" id="Email"><br>
 
-            
-            <button type="button" class="btn btn-warning">Submit</button>
+
+            <button type="button" onclick="checkAnswer()">Submit</button>
          </form>
         <h3>Do you agree to the terms of signing up?</h3>
-        <input type="checkbox" name="Yes" value="Yes">Sure, Whatever<br>
+        <input id="terms" type="checkbox" name="terms" value="true">Sure, Whatever<br>
         <br>
+
+        <div id="message" class="blueColor">Your Name Here</div>
+
         <h4 class="redColor">Other Pages</h4>
         <a href="HW7Page1.html">Main Page</a><br>
         <a href="HW7Page2.html">Story Page</a>
