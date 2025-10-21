@@ -19,7 +19,7 @@
             var checkBox = document.getElementById("terms");
             var text = document.getElementById("message");
             var failureMessage = "You must fill out all fields and agree to the terms to sign up.";
-            // clear previous invalid styles
+           
             document.getElementById("Fname").classList.remove('invalid');
             document.getElementById("Lname").classList.remove('invalid');
             document.getElementById("Email").classList.remove('invalid');
@@ -52,12 +52,12 @@
 
     </script>
     <style>
-        /* highlight invalid inputs */
+        
         .invalid {
             outline: 3px solid rgba(255,0,0,0.7);
             background-color: rgba(255,0,0,0.05);
         }
-        /* make checkbox outline visible on most browsers */
+        
         input[type="checkbox"].invalid {
             box-shadow: 0 0 0 3px rgba(255,0,0,0.4);
         }
